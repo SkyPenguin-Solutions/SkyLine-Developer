@@ -7,4 +7,6 @@ set OutputFile := SourcePath + "ImageInfected.jpg";
 
 res := ImageUtils.InjectImage(InjectSrc, OutputFile, PayloadFile);
 
-if (res) {  println("[+] Image Has been injected...") };
+if (res) {  
+  println("[+] Image Has been injected...") 
+};
